@@ -14,7 +14,7 @@ npm install nodemailer --save
 
 
 
-### 上代码
+### 简陋的实现
 
 ```javascript
 const NodeMailer = require('nodemailer');     //@modules  npm install nodemailer
