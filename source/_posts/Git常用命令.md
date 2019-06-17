@@ -6,7 +6,7 @@ tags:
 ---
 <!--# Git常用命令-->
 
-![git三个分区](http://pt2rf9y1b.bkt.clouddn.com/Markdown/git_three_rigon.png)
+![git三个分区](http://cdn.chrischen.top//Markdown/git_three_rigon.png)
 
 ### Git基本操作
 
