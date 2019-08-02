@@ -47,6 +47,14 @@ defaults write com.apple.finder CreateDesktop -bool false; killall Finder
 
 
 
+### **让 Finder 显示完整路径**
+
+~~~javascript
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+~~~
+
+
+
 ### Mac 启动台图标大小调整
 
 1 、终端运行命令：10代表一行显示10个图标，几个可以自定义
@@ -63,7 +71,7 @@ killall Dock
 
 
 
-### Mac结束Node进程
+### Mac结束进程
 
 ```shell
 lsof -i:<端口号>  // 获取到对应的pid

@@ -16,4 +16,6 @@ tags:
 |   WeChat weapp Support   |  微信小程序语法支持  |
 | Better-mybatis-genetator | idea中的database工具 |
 |         .ignore          |       文件忽略       |
+|     Str Manipulation     |      字符串操作      |
+|                          |                      |
 
