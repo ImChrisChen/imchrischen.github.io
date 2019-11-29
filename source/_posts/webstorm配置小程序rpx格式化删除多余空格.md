@@ -13,7 +13,7 @@ tags:
 ![](http://cdn.chrischen.top//Markdown/PastedGraphic.jpg)
 
 ### 填写配置
-    
+
 ![](http://cdn.chrischen.top//Markdown/PastedGraphic2.jpg)
 
 >   program 填写 `sed`
