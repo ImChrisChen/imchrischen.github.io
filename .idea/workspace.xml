@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="1. 添加文章'JavaScript闭包理解'">
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 添加博客">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/webstorm配置小程序rpx格式化删除多余空格.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/webstorm配置小程序rpx格式化删除多余空格.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/节流和防抖的理解.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/节流和防抖的理解.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +18,22 @@
     <favorites_list name="MyBlogHexo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/节流和防抖的理解.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="608">
+                <caret line="158" column="37" selection-start-line="158" selection-start-column="37" selection-end-line="158" selection-end-column="37" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,7 +90,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/source/_posts/Node发送邮件.md" />
-        <option value="$PROJECT_DIR$/source/_posts/节流和防抖的理解.md" />
         <option value="$PROJECT_DIR$/themes/indigo/layout/_partial/post/gitment.ejs" />
         <option value="$PROJECT_DIR$/themes/indigo/layout/_partial/post/nav.ejs" />
         <option value="$PROJECT_DIR$/themes/indigo/source/css/_partial/_gitment.styl" />
@@ -115,6 +128,7 @@
         <option value="$PROJECT_DIR$/source/_posts/Contenteditable-可编辑div设置placeholder属性.md" />
         <option value="$PROJECT_DIR$/source/_posts/input框-type-file-转化图片为Base64.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue-awesome-swiper-自定义分页器样式.md" />
+        <option value="$PROJECT_DIR$/source/_posts/节流和防抖的理解.md" />
       </list>
     </option>
   </component>
@@ -125,8 +139,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="x" value="231" />
+    <option name="y" value="34" />
+    <option name="width" value="1631" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -135,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,41 +163,10 @@
               <item name="MyBlogHexo" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyBlogHexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBlogHexo" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBlogHexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBlogHexo" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBlogHexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBlogHexo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBlogHexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBlogHexo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="indigo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBlogHexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBlogHexo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="indigo" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,7 +176,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -267,7 +252,8 @@
       <workItem from="1566129065343" duration="1033000" />
       <workItem from="1566303567345" duration="777000" />
       <workItem from="1574948781299" duration="1351000" />
-      <workItem from="1574996657813" duration="863000" />
+      <workItem from="1574996657813" duration="1195000" />
+      <workItem from="1575948821161" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -283,16 +269,31 @@
       <option name="project" value="LOCAL" />
       <updated>1564768108392</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 添加博客">
+      <created>1574997595329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574997595329</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 添加博客">
+      <created>1574997612041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574997612041</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58231000" />
+    <option name="totallyTimeSpent" value="58925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="231" y="34" width="1631" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49523053" visible="true" weight="0.2342918" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49523053" weight="0.27942103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -313,7 +314,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49885583" weight="0.6323667" />
       <window_info anchor="bottom" id="调试" order="10" />
       <window_info anchor="bottom" id="RNConsole" order="11" weight="0.32992035" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4922078" visible="true" weight="0.39479393" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4922078" weight="0.39479393" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50779223" side_tool="true" weight="0.34285715" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="15" />
@@ -383,17 +384,11 @@
     <MESSAGE value="1. 迁移文档;&#10;2. 接入gitment评论系统;" />
     <MESSAGE value="1. 添加文章&#10;2. 配置gitment评论系统（未完成）" />
     <MESSAGE value="1. 添加文章'JavaScript闭包理解'" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 添加文章'JavaScript闭包理解'" />
+    <MESSAGE value="feat: 添加博客" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加博客" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/indigo/source/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -834,6 +829,18 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="280">
             <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/节流和防抖的理解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="608">
+            <caret line="158" column="37" selection-start-line="158" selection-start-column="37" selection-end-line="158" selection-end-column="37" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
