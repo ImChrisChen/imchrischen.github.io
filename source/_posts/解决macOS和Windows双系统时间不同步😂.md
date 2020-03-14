@@ -2,6 +2,8 @@
 title: "解决macOS和Windows双系统时间不同步😂"
 date: 2020-03-15 03:15:35
 tags:
+    - Mac
+    - Windows
 ---
 
 > 原文链接 👉 [黑苹果与Windows系统时间不同步的解决办法](https://osx.cx/mac-os-x-windows-systme-time.html#)
