@@ -8,9 +8,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="MyBlogHexo" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -35,7 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/public/archives/index.html" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/indigo/layout/_partial/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -51,6 +48,10 @@
       <recent name="$PROJECT_DIR$/themes/indigo/layout/_partial/post" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
+=======
+      <recent name="$PROJECT_DIR$/themes" />
+>>>>>>> 98fd9a06d1a89c9d6f28bac49ba0312d52af321d
       <recent name="$PROJECT_DIR$/themes/indigo/layout/_partial/plugins" />
     </key>
   </component>
@@ -124,8 +125,15 @@
       <workItem from="1575948821161" duration="1976000" />
       <workItem from="1575991598124" duration="1000" />
       <workItem from="1583377946815" duration="2464000" />
+<<<<<<< HEAD
       <workItem from="1583911381234" duration="370000" />
       <workItem from="1584162438262" duration="1012000" />
+=======
+      <workItem from="1583911381234" duration="1610000" />
+      <workItem from="1583917098044" duration="1895000" />
+      <workItem from="1583981845046" duration="340000" />
+      <workItem from="1584000559728" duration="1096000" />
+>>>>>>> 98fd9a06d1a89c9d6f28bac49ba0312d52af321d
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>

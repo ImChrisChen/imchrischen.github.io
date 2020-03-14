@@ -1,0 +1,72 @@
+<% if (theme.hyper_id){ %>
+    <section class="comments" id="comments">
+        <div id="hypercomments_widget"></div>
+        <script type="text/javascript">
+            var hyper_id = '<%- theme.hyper_id %>';
+            _hcwp = window._hcwp || [];
+            _hcwp.push({
+                widget: "Stream",
+                widget_id: hyper_id
+            });
+            (function () {
+                if ("HC_LOAD_INIT" in window) return;
+                HC_LOAD_INIT = true;
+                var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(
+                    0, 2).toLowerCase();
+                var hcc = document.createElement("script");
+                hcc.type = "text/javascript";
+                hcc.async = true;
+                hcc.src = ("https:" == document.location.protocol ? "https" : "http") +
+                    "://w.hypercomments.com/widget/hc/" + hyper_id + "/" + lang + "/widget.js";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hcc, s.nextSibling);
+            })();
+
+        </script>
+        <a href="http://hypercomments.com" rel="nofollow" class="hc-link" title="comments widget">comments powered by
+            HyperComments</a>
+    </section>
+<% } %>
+
+<% if(theme.gitment.enable) { %>
+    <div id="gitment_title" class="gitment_title"></div>
+    <div id="container" style="display:none"></div>
+
+    <!--<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>-->
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="http://cdn.chrischen.top/lib/js/gitment.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        const myTheme = {
+            render(state, instance) {
+                const container = document.createElement('div');
+                container.lang = "en-US";
+                container.className = 'gitment-container gitment-root-container';
+                container.appendChild(instance.renderHeader(state, instance));
+                container.appendChild(instance.renderEditor(state, instance));
+                container.appendChild(instance.renderComments(state, instance));
+                container.appendChild(instance.renderFooter(state, instance));
+                return container;
+            }
+        }
+
+        function showGitment() {
+            $("#gitment_title").attr("style", "display:none");
+            $("#container").attr("style", "").addClass("gitment_container");
+            var gitment = new Gitment({
+                id: decodeURI(window.location.pathname),
+                theme: myTheme,
+                owner: 'ImChrisChen',
+                repo: 'ImChrisChen.github.io',
+                oauth: {
+                    client_id: '27a2ee48afa9cd36ac9a',
+                    client_secret: 'c1c0a3f0b0208a341903f8506ceabd430264994e',
+                }
+            });
+            gitment.render('container');
+        }
+
+        showGitment();
+    </script>
+<% } %>
