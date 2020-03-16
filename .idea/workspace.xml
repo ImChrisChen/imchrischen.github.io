@@ -36,18 +36,20 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/themes" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes" />
       <recent name="$PROJECT_DIR$/themes/indigo/source/css/_partial" />
       <recent name="$PROJECT_DIR$/themes/indigo/source/css/_plugin" />
       <recent name="$PROJECT_DIR$/themes/indigo/layout/_partial/plugins" />
       <recent name="$PROJECT_DIR$/themes/indigo/layout/_partial/post" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes" />
       <recent name="$PROJECT_DIR$/themes/indigo/layout/_partial/plugins" />
     </key>
   </component>
@@ -121,10 +123,8 @@
       <workItem from="1575948821161" duration="1976000" />
       <workItem from="1575991598124" duration="1000" />
       <workItem from="1583377946815" duration="2464000" />
-      <workItem from="1583911381234" duration="1610000" />
-      <workItem from="1583917098044" duration="1895000" />
-      <workItem from="1583981845046" duration="340000" />
-      <workItem from="1584000559728" duration="1096000" />
+      <workItem from="1583911381234" duration="370000" />
+      <workItem from="1584162438262" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -168,19 +168,12 @@
       <option name="project" value="LOCAL" />
       <updated>1575968956862</updated>
     </task>
-    <task id="LOCAL-00007" summary="feat: 添加Axios博客，添加百度统计">
-      <created>1583911941147</created>
+    <task id="LOCAL-00007" summary="feat: 编写&quot;Mac下brew切换镜像源😲&quot;文档">
+      <created>1584163236267</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1583911941147</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat: 添加文章，小游戏发布流程">
-      <created>1583981948650</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1583981948650</updated>
+      <updated>1584163236267</updated>
     </task>
     <task id="LOCAL-00009" summary="feat: 添加Vue clipcopy 插件使用文章;">
       <created>1584096063500</created>
