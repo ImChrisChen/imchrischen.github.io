@@ -1,5 +1,11 @@
-#  NPM | NRM
+---
+title: npm && nrm 常用命令及npm 包部署
+date: 2020-05-24 22:08:38
+tags:
+- npm
+---
 
+#  NPM | NRM
 
 
 ### 查看那些npm包可以更新
