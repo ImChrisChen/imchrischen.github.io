@@ -1,11 +1,13 @@
 ---
 title: mac下镜像飞速安装Homebrew教程😲「 转载 」
 date: 2020-03-14 13:11:38 
+categories: 工具配置
 tags:
     - Mac 
     - Brew
 ---
 
+https://brew.idayer.com/guide/start
 
 # 前言
 Homebrew是一款包管理工具，目前支持macOS和linux系统。主要有四个部分组成: brew、homebrew-core 、homebrew-cask、homebrew-bottles。
