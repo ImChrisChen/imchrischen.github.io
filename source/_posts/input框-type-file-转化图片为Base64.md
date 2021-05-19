@@ -1,7 +1,11 @@
 ---
-title: input框type=file转化图片为Base64 😲
+title: input框type=file转化图片为Base64 😲 
+
 date: 2019-11-28 22:08:51
-categories: 代码片段  
+
+categories: 
+ - 代码片段  
+
 tags:
  - html
  - Javascript

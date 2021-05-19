@@ -1,13 +1,15 @@
 ---
 title: Axios发送post请求后台获取不到数据🥲
+
 date: 2019-06-12 15:16:48
+
 categories:
-    - 解决问题相关
+ - 解决问题相关
 
 tags:
-    - Axios
-    - Http
-    - Javascript
+ - Axios
+ - Http
+ - Javascript
 ---
 
 <!--# Axios post请求后台拿不到数据-->
