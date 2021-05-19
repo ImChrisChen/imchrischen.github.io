@@ -1,8 +1,10 @@
 ---
 title:  http协议发展历史和基础知识 📖
 date: 2021-05-19 06:22:32
-tags: http
-categories: 计算机网络
+tags: 
+    - Http
+categories: 
+    - 计算机网络
 ---
 
 

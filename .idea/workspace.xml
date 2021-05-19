@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 新增 http协议发展历史和基础知识 📖">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Axios发送post请求后台获取不到数据.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Axios发送post请求后台获取不到数据.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 📖.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 📖.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/显示中文乱码问题.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/显示中文乱码问题😼.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git显示中文乱码问题.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/Git显示中文乱码问题😼.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +172,7 @@
       <workItem from="1621309793729" duration="7745000" />
       <workItem from="1621376538674" duration="1536000" />
       <workItem from="1621403771610" duration="668000" />
-      <workItem from="1621406574024" duration="802000" />
+      <workItem from="1621406574024" duration="1762000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>

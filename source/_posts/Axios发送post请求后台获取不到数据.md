@@ -1,10 +1,13 @@
 ---
-title: Axios发送post请求后台获取不到数据
+title: Axios发送post请求后台获取不到数据🥲
 date: 2019-06-12 15:16:48
+categories:
+    - 解决问题相关
+
 tags:
-- Axios
-- Http
-- Javascript
+    - Axios
+    - Http
+    - Javascript
 ---
 
 <!--# Axios post请求后台拿不到数据-->
@@ -66,9 +69,17 @@ created() {
 
 ### 3. 和后台协商改变接收参数方式
 
-~~~
-xxxxxxxx
-~~~
+    上面这些情况一般都是由于前后端数据类型交互格式不一致所导致的
+
+例如后端使用的是 `application/x-www-form-urlencoded`格式
+数据格式为：`id=1&name=chris`
+
+前端发送的数据是 `application/json` 格式
+数据格式为：`{id:1,name:'chris'}`
+
+就会纯在上面所说的情况,需要用一些方法去处理和转译
+
+**然后最好的办法还是直接从文档上就统一好这些规范，避免在开发时出现不必要的联调，导致降低效率**
 
 
 
