@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 修改文章，关闭评论">
-      <change afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 📖.md" afterDir="false" />
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 新增 http协议发展历史和基础知识 📖">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/mac下镜像飞速安装Homebrew教程「 转载 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/mac下镜像飞速安装Homebrew教程😲「 转载 .md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/mac下镜像飞速安装Homebrew教程「 转载 」.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/mac下镜像飞速安装Homebrew教程😲「 转载 」.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 📖.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 📖.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +168,9 @@
       <workItem from="1584162438262" duration="1012000" />
       <workItem from="1621269193225" duration="1915000" />
       <workItem from="1621309793729" duration="7745000" />
-      <workItem from="1621376538674" duration="897000" />
+      <workItem from="1621376538674" duration="1536000" />
+      <workItem from="1621403771610" duration="668000" />
+      <workItem from="1621406574024" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621317539275</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: 新增 http协议发展历史和基础知识 📖">
+      <created>1621377458863</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621377458864</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,8 @@
     <MESSAGE value="feat: 添加文章，小游戏发布流程" />
     <MESSAGE value="feat: 添加Vue clipcopy 插件使用文章;" />
     <MESSAGE value="feat: 修改文章，关闭评论" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改文章，关闭评论" />
+    <MESSAGE value="feat: 新增 http协议发展历史和基础知识 " />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增 http协议发展历史和基础知识 " />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
