@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="fix: 完善相关博客内容和分类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Axios发送post请求后台获取不到数据.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Axios发送post请求后台获取不到数据.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Axios网络请求超时处理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Axios请求拦截器配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Axios请求拦截器配置.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 📖.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和基础知识 📖.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/JavaScript时间戳转换日期格式.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/JavaScript时间戳转换日期格式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Javascript-的神仙操作.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/Javascript-的神仙操作😂😂😂.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/input框-type-file-转化图片为Base64.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/input框-type-file-转化图片为Base64.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/JavaScript的一些操作.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/JavaScript的一些操作🤙.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/神奇的Javascript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Vue-Router history模式的配置方法(nginx)及其原理.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/Vue-Router history模式的配置方法(nginx)及其原理🧐.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Vue-Router history模式的配置方法(nginx)及其原理.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/Vue-Router history模式的配置方法(nginx)及其原理🧐.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/variable.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/variable.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,7 @@
       <workItem from="1621309793729" duration="7745000" />
       <workItem from="1621376538674" duration="1536000" />
       <workItem from="1621403771610" duration="668000" />
-      <workItem from="1621406574024" duration="4412000" />
+      <workItem from="1621406574024" duration="14413000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -262,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621411432913</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix: 完善相关博客内容和分类">
+      <created>1621412535609</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621412535609</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

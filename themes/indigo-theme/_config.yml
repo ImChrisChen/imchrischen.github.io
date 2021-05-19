@@ -64,7 +64,7 @@ show_last_updated: true
 share: false
 
 # 是否开启打赏，关闭 reward: false
-reward: true
+reward: false
 #  title: 谢谢大爷~
 #  wechat: /img/wechat.jpg     #微信，关闭设为 false
 #  alipay: /img/alipay.jpg     #支付宝，关闭设为 false
@@ -81,7 +81,7 @@ toc:
     list_number: true  # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
-postMessage: 这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
+#postMessage: 这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
 
 # 站长统计，如要开启，输入CNZZ站点id，如 cnzz: 1255152447
 cnzz: false
@@ -114,7 +114,7 @@ uyan_uid: false
 
 # 是否使用 gitment，https://github.com/imsun/gitment
 gitment:
-    enable: true # 是否开启gitment评论系统
+    enable: false # 是否开启gitment评论系统
     mint: true #
     count: true # 是否显示评论数
     lazy: true # 懒加载，设置为ture时需手动展开评论
@@ -158,15 +158,16 @@ hyper_id: false
 canonical: false
 
 # 版权起始年份
-since_year: 2015
+since_year: 2018
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
 about: 用户页面中作者相关的描述性文字，如不需要设为 false
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
-visit_counter:
-    site_uv: 站点总访客数：
-    site_pv: 站点总访问量：
+visit_counter: false
+#visit_counter:
+#    site_uv: 站点总访客数：
+#    site_pv: 站点总访问量：
 
 # 动态定义title
 title_change:
@@ -181,4 +182,4 @@ cdn: true
 lightbox: true
 
 # icp备案号  ICP_license: 京ICP备1234556号-1
-ICP_license: false
+ICP_license: 粤ICP备18132161号-1

@@ -7,9 +7,13 @@ title: Yo Man!
 subtitle:
 description:
 keywords:
+  - blog
+  - chrischen
+  - ChrisChen
+  - 309129685@qq.com
 author: ChrisChen
 language: zh-Hans
-timezone:
+#timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -85,10 +89,10 @@ deploy:
   repo: https://github.com/ImChrisChen/ImChrisChen.github.io.git
   branch: master
 
-#gitment:
-#  enable: true
-#  githubID: ImChrisChen
-#  repo: https://ImChrisChen.Github.io
-#  ClientID: 27a2ee48afa9cd36ac9a
-#  ClientSecret: c1c0a3f0b0208a341903f8506ceabd430264994e
-#  lazy: true
+gitment:
+  enable: false
+  githubID: ImChrisChen
+  repo: https://ImChrisChen.Github.io
+  ClientID: 27a2ee48afa9cd36ac9a
+  ClientSecret: c1c0a3f0b0208a341903f8506ceabd430264994e
+  lazy: true

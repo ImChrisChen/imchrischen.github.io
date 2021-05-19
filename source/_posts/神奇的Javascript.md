@@ -1,9 +1,19 @@
 ---
-title: "JavaScript的一些操作🤙"
+title: 有趣并实用的 JavaScript操作 😲
+
 date: 2020-03-16 00:28:23
+categories:
+ - 代码片段
+
 tags:
     - Javascript
 ---
+
+想来搞前端也快2年时间来，想起在刚开始写Javascript的时候，总是能遇见一些奇奇怪怪的问题, 和一些让人 WTF的操作，后面越来越深入的了解到这门语言后，一些令人摸不着头脑东西也就明白为什么会这样了, 
+这里也是记录一些好玩好用的JavaScript的片段，也算是一种输出吧
+
+---
+
 
 ### 将多维数组变成一维数组
 
@@ -130,7 +140,6 @@ var f = function() {}();
 1 ^ function() {}();
 1 > function() {}();
 ~~~
-
 
 
 ### DOM调试模式
