@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="fix: 完善相关博客内容和分类">
-      <change afterPath="$PROJECT_DIR$/source/_posts/JavaScript实现一个链表-数据结构.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Hexo-cli 的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Hexo-cli 的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Vue-config-js跨域配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/常用跨域解决方案整理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Vue复制内容到剪切板.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/完美黑苹果纪念一下.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/完美黑苹果纪念一下🤪.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/对闭包的理解.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/对闭包的理解.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/解决macOS和Windows双系统时间不同步.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/解决macOS和Windows双系统时间不同步😂.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/JavaScript实现一个链表-数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/JavaScript实现一个链表-数据结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/variable.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/variable.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
