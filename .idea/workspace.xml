@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="fix: 完善相关博客内容和分类">
-      <change afterPath="$PROJECT_DIR$/source/_posts/MingleJS的设计理念以及效果展示.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Vue3源码解读-响应式数据原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/http中get和post的区别.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/进程和线程的区别.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/JavaScript实现一个链表-数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/JavaScript实现一个链表-数据结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/webstorm常用插件.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,7 @@
       <workItem from="1621406574024" duration="14413000" />
       <workItem from="1621539357540" duration="2293000" />
       <workItem from="1621634847164" duration="1041000" />
-      <workItem from="1621672250794" duration="7000" />
+      <workItem from="1621672250794" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
