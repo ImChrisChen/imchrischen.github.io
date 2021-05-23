@@ -122,7 +122,7 @@ server {
 
 写了个Demo，nginx上配置了 `add_header "Content-Security-Policy" "default-src http: https:"`后，可以看到内嵌式的script 代码已经不生效了，网页上没有任何的改变
 
-   <img src="http://cdn.chrischen.top/blog/6eK5NS.png" style="zoom:33%;" />
+<img src="http://cdn.chrischen.top/blog/6eK5NS.png" style="zoom:33%;" />
 
 同样CSS也是, 行内样式和内嵌样式都被拦截掉了
 

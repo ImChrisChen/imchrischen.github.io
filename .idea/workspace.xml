@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="fix: 修改博客分类">
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="style: 优化样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/baidu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/baidu.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +178,7 @@
       <workItem from="1621634847164" duration="1041000" />
       <workItem from="1621672250794" duration="4073000" />
       <workItem from="1621752220912" duration="3335000" />
+      <workItem from="1621775567806" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -268,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621412535609</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="style: 优化样式">
+      <created>1621767734117</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621767734117</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +328,8 @@
     <MESSAGE value="feat: 修改文章，关闭评论" />
     <MESSAGE value="feat: 新增 http协议发展历史和基础知识 " />
     <MESSAGE value="fix: 完善相关博客内容和分类" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 完善相关博客内容和分类" />
+    <MESSAGE value="style: 优化样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: 优化样式" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
