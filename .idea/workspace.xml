@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="fix: 完善相关博客内容和分类">
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="fix: 修改博客分类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

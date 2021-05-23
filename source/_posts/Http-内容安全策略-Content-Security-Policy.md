@@ -34,38 +34,34 @@ tags:
 下面说下 `CSP` 如何开启👇🏻
 
 
-
-
-
 ## 限制参数
 
 下面选项限制各类资源的加载，主要分为以下两种
 
-- ```default-scr``` 限制全局，所有根据链接加载的东西都会被限制（优先级最高）
-
+- `default-scr` 限制全局，所有根据链接加载的东西都会被限制（优先级最高）
   ```nginx
   Content-Security-Policy: default-src 'self'		#设置各项的默认值
   ```
 
 - 制定资源类型
 
-  - ```content-src```   所有请求资源限制 ( [HTTP](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/OverView) ,[WebSocket](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket) , [EventSource](https://developer.mozilla.org/zh-CN/docs/Web/API/EventSource) 等)
-  - ```script-src```       外部脚本
-  - ```img-src```           图片资源
-  - ```style-src```         外部CSS
-  - ```font-src```          字体文件
-  - ```worker-src```     worker脚本
-  - ```frame-src```       嵌入的外部资源（比如<frame>、<iframe>、<embed>和<applet>）
-  - manifest-src  [Manifest](https://developer.mozilla.org/zh-CN/docs/Web/Manifest) 文件 （WebApp）
+  - `content-src`   所有请求资源限制 ( [HTTP](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/OverView) ,[WebSocket](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket) , [EventSource](https://developer.mozilla.org/zh-CN/docs/Web/API/EventSource) 等)
+  - `script-src`       外部脚本
+  - `img-src`           图片资源
+  - `style-src`         外部CSS
+  - `font-src`          字体文件
+  - `worker-src`     worker脚本
+  - `frame-src`       嵌入的外部资源（比如`<frame>、<iframe>、<embed>和<applet>`）
+  - `manifest-src`  [Manifest](https://developer.mozilla.org/zh-CN/docs/Web/Manifest) 文件 （WebApp）
 
 - 其他限制
 
   限制了一些其他的安全规范，也放在了CSP里面
 
-  - ```block-all-mixed-content```   HTTPS 网页不得加载 HTTP 资源（浏览器已经默认开启）
-  - ```upgrade-insecure-requests``` 自动将网页上所有加载外部资源的 HTTP 链接换成 HTTPS 协议
-  - ```plugin-types``` 	限制可以使用的插件格式
-  - ```sandbox```  浏览器行为的限制，比如不能有弹出窗口等
+  - `block-all-mixed-content`   HTTPS 网页不得加载 HTTP 资源（浏览器已经默认开启）
+  - `upgrade-insecure-requests` 自动将网页上所有加载外部资源的 HTTP 链接换成 HTTPS 协议
+  - `plugin-types` 	限制可以使用的插件格式
+  - `sandbox`  浏览器行为的限制，比如不能有弹出窗口等
 
   上面资源类型一下比较通用的， 其中还包含 font-src，frame-src，media-src等等，只要是可以通过外链形式加载的几乎资源都可以被限制
 
@@ -90,9 +86,9 @@ tags:
 
 ## 语法规则
 
-每个规则可以指定一个或者多个选限，如果有多个则用空格分开
+每个规则可以指定一个或者多个选限，如果有多个则用` `空格分开
 
-每条规则用```；```结尾 例如:
+每条规则用`;`结尾 例如:
 
 ```nginx
 server {
@@ -117,14 +113,14 @@ server {
 
 1. 通过配置 `HTTP` 头信息的 `Content-Security-Policy` 字段 （服务器）
 
-   ```nginx
-   server {
-   	# 不能使用行内script只能从http或者https中使用外链
-   	add_header "Content-Security-Policy" "default-src http: https:";    
-   }
-   ```
+```nginx
+server {
+    # 不能使用行内script只能从http或者https中使用外链
+    add_header "Content-Security-Policy" "default-src http: https:";    
+}
+```
 
-   写了个Demo，nginx上配置了 `add_header "Content-Security-Policy" "default-src http: https:"`后，可以看到内嵌式的script 代码已经不生效了，网页上没有任何的改变
+写了个Demo，nginx上配置了 `add_header "Content-Security-Policy" "default-src http: https:"`后，可以看到内嵌式的script 代码已经不生效了，网页上没有任何的改变
 
    <img src="http://cdn.chrischen.top/blog/6eK5NS.png" style="zoom:33%;" />
 
@@ -148,7 +144,6 @@ server {
 - 注入百度统计，Google统计等脚本
 - 后端多域名的API（微服务更甚之，可能一个项目调7，8个域名，不过可以通过通配符去解决） 
 - 等等
-
 
 
 ## 总结
