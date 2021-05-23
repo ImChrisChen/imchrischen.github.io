@@ -1,11 +1,18 @@
 ---
-title: Http 内容安全策略 - Content-Security-Policy
+title: HTTP 内容安全策略 - Content-Security-Policy
+
 date: 2021-05-22 16:32:53
+
+categories:
+  - Web攻防 
+
 tags:
   - Http
-  - Web攻防 
 ---
 
+
+## 前言
+今天写下如何避免 `XSS` 跨站脚本攻击，以及CSP的使用
 
 
 ## 内容安全策略（CSP）是什么？
