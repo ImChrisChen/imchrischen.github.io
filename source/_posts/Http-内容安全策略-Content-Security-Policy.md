@@ -4,7 +4,7 @@ title: HTTP 内容安全策略 - Content-Security-Policy
 date: 2021-05-22 16:32:53
 
 categories:
-  - Web攻防 
+  - web安全
 
 tags:
   - Http

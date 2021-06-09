@@ -50,7 +50,7 @@ HTTP是web编程最为基础的了知识了，有 `互联网基石` 的称号可
 ### 新增持久链接 keep-alive（ 默认开启 ）
 
 > 在一个TCP连接中可以发送多个HTTP请求， 一个HTTP请求肯定是在在某个TCP连接中去发送的
-    
+
 `keep-alive`： 在HTTP1.1的升级最主要的是 `keep-alive` 持久链接 大大的减少了每次请求都要建立一次TCP连接带来的耗时，从而提升了HTTP请求性能，keep-alive 带来这么大性能提升的同时也也有他的缺点
 
 ![](http://cdn.chrischen.top/blog/Ph3PSc.jpg)

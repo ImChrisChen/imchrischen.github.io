@@ -1,11 +1,72 @@
 ---
 title: 如何进行Web程序性能优化🛁
+
 date: 2019-08-17 13:27:10
+
+categories:
+  - 性能优化
+
 tags: 
-- html
-- css
-- Javascript
+  - html
+  - css
+  - Javascript
 ---
+
+
+
+## 浏览器
+
+### html
+
+- 减少DOM数量
+
+- 不要在HTML中拉伸图片 （会重新绘制）
+
+  
+
+### css
+
+- 避免重复定义CSS，CSS覆盖等
+- 不使用CSS表达式
+
+
+
+### javascript
+
+- 减少DOM访问（避免重绘 和 回流）
+- 合理设计事件监听器
+- 避免 DOM 阻塞 （JavaScript放在最后面，或者加上defer 标签）
+
+
+
+## 资源
+
+- 静态资源压缩，使用CDN
+
+
+
+## 缓存
+
+- 客户端缓存
+- 服务端缓存
+- http 缓存
+
+
+
+## 网络Http
+
+- 减少 HTTP 请求数量（合并文件、CSS精灵 (图片合成)、inline Image）
+- 减少 HTTP 请求大小
+- 添加Expires或者Cache-Control响应头
+
+
+
+## 服务器
+
+- nginx 开启 gzip 压缩
+- 减小cookie大小
+- 引入资源的域名不要包含cookie
+- 
 
 ### content方面
 
@@ -25,45 +86,7 @@ tags:
 ### Server方面
 
 -   使用CDN
--   添加Expires或者Cache-Control响应头
--   对组件使用Gzip压缩
+-   
 -   配置ETag
 -   Flush Buffer Early
 -   Ajax使用GET进行请求
--   避免空src的img标签
-
-
-
-### Cookie方面
-
--   减小cookie大小
--   引入资源的域名不要包含cookie
-
-
-
-### CSS方面
-
--   将样式表放到页面顶部
--   不使用CSS表达式
--   使用不使用@import
--   不使用IE的Filter
-
-
-
-### Javascript方面
-
--   将脚本放到页面底部
--   将javascript和css从外部CDN引入
--   压缩javascript和css
--   删除不需要的脚本
--   减少DOM访问
--   合理设计事件监听器
-
-
-
-### 图片方面
-
--   优化图片：根据实际颜色需要选择色深、压缩
--   优化css精灵
--   不要在HTML中拉伸图片
--   保证favicon.ico小并且可缓存
