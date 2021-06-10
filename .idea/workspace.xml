@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 添加百度统计">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/如何进行Web程序性能优化.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/如何进行Web程序性能优化🛁.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/如何进行Web程序性能优化.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/如何进行Web程序性能优化🛁.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/记录这几天面试没有回答上来的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/记录这几天面试没有回答上来的问题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/深刻理解localStorage sessionStorage.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/🤔深刻理解localStorage sessionStorage.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/深刻理解localStorage sessionStorage.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/🤔深刻理解localStorage sessionStorage.md" afterDir="false" />
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="style: 优化样式">
+      <change beforePath="$PROJECT_DIR$/source/_posts/http中get和post的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/http中get和post的区别.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
