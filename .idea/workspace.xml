@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 添加百度统计">
-      <change afterPath="$PROJECT_DIR$/source/_posts/http缓存-强缓存和协商缓存.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/NestJS-核心特性及概念梳理.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/http缓存-强缓存和协商缓存.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/http缓存-强缓存和协商缓存.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +191,8 @@
       <workItem from="1624380536304" duration="14000" />
       <workItem from="1624381695715" duration="607000" />
       <workItem from="1624450616202" duration="3926000" />
-      <workItem from="1624622240961" duration="6236000" />
+      <workItem from="1624622240961" duration="8134000" />
+      <workItem from="1624781316260" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
