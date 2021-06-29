@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="style: 优化样式">
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 添加百度统计">
+      <change afterPath="$PROJECT_DIR$/source/_posts/NestJS-核心特性及概念梳理.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/http缓存-强缓存和协商缓存.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/http缓存-强缓存和协商缓存.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/public/archives/index.html" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.15" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/themes" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -185,9 +187,12 @@
       <workItem from="1622452330353" duration="860000" />
       <workItem from="1622533913531" duration="2244000" />
       <workItem from="1622558597814" duration="441000" />
-      <workItem from="1623222399974" duration="871000" />
-      <workItem from="1624598963165" duration="1342000" />
-      <workItem from="1624845760618" duration="185000" />
+      <workItem from="1623222399974" duration="122000" />
+      <workItem from="1624380536304" duration="14000" />
+      <workItem from="1624381695715" duration="607000" />
+      <workItem from="1624450616202" duration="3926000" />
+      <workItem from="1624622240961" duration="8134000" />
+      <workItem from="1624781316260" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>

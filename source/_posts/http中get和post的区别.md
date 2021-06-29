@@ -43,7 +43,7 @@ RESUful API 风格就是遵循的http的语义化去设计的
 ## 参数传递形式不一样
 
 ### GET
-
+    
 GET请求的参数是拼接在URL后面的，通过 `= &符号进行分割`  `url?key1=value2&key2=value2`
 
 例如: `http://chrischen.top/api?id=10&name=chris` 
