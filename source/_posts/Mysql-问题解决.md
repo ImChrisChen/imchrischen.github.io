@@ -1,7 +1,8 @@
 ---
 title: Mysql 问题解决
 date: 2021-07-22 20:43:06
-tags:
+tags 
+  - Mysql
 ---
 
 
