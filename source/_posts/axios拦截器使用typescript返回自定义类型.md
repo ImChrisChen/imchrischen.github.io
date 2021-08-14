@@ -4,13 +4,26 @@ date: 2021-07-31 21:18:28
 tags:
   - axios
   - typescript
+
+categorys:
+  - 问题解决篇
 ---
 
 
 
-## 解决typescript 中 axios拦截器返回值不匹配的问题
+## 前言
+
+搞前端一般在开发中都会用到一些请求库，如 `axiox ,$.ajax` 然后对其进行封装
+
+普遍会用到拦截器去过滤掉一层或者多层数据，这时候在 `js` 中是没有问题
+
+但是在`typescript`中由于类型系统，会导致返回值 提示不匹配甚至提示类型错误
+
+这篇文章会给到一个通用的解决方案去解决这个问题
 
 
+
+## 解决问题
 
 ### 思路
 
@@ -19,7 +32,9 @@ tags:
 3. 自定义一份类似 `AxiosInstance` 的接口， 然后用自定义的返回值接口替换掉原有的定义
 4. 使用在 封装的`axios ` 实例上（下面的`HttpClient`  就是修改后的 `axios 实例 接口`）
 
+### 
 
+### 示例代码
 
 ```typescript
 
@@ -95,6 +110,5 @@ httpClient.interceptors.response.use(response => {
 });
 
 export default httpClient;
-
 ```
 

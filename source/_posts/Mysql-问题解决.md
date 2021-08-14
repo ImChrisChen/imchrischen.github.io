@@ -113,4 +113,94 @@ UPDATE mysql.`user` SET authentication_string=MD5('root') WHERE user='root';
 
 ```mysql
 flush privileges;
+```
 
+
+
+#### ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+
+密码不符合当前的安全要求
+
+
+
+可以先修改一个复杂的密码，然后才能去设置密码安全等级（有点狗🐶....) 
+
+
+
+1. 修改成复杂的密码
+
+```mysql
+-- alter user user() IDENTIFIED BY '你的密码';
+alter user user() IDENTIFIED BY 'RootAdmin100_';
+```
+
+
+
+2. 查看密码当前密码安全策略等级
+
+```mysql
+show variables like 'validate_password%';
+```
+
+
+<img src="/Users/chrischen/Library/Application Support/typora-user-images/image-20210814170500801.png" style="zoom:50%;" />
+
+
+
+3. 修改密码等级
+
+> 按照自己的需求调整
+
+```mysql
+-- 密码验证策略低要求(0或LOW代表低级)
+set global validate_password.policy=0;
+
+-- 密码至少要包含的小写字母个数和大写字母个数
+set global validate_password.mixed_case_count=0;
+
+-- 密码至少要包含的数字个数。
+set global validate_password.number_count=0; 
+
+-- 密码至少要包含的特殊字符数
+set global validate_password.special_char_count=0; 
+
+-- 密码长度
+set global validate_password.length=6;  
+```
+
+
+
+4. 修改密码
+
+```mysql
+-- alter user user() identified by '你的密码';
+alter user user() identified by 'rootadmin';
+```
+
+
+
+## Mysql8.0 密码忘记修改密码思路
+
+网上找了一群都发现是直接修改密码的，没有忘记密码了这种思路
+
+1. 忘记密码连接不上，选改配置跳过登录
+
+   `/etc/my.cnf` 新增一行 skip-grant-tables
+
+2. 先把 mysql 库的 密码改成空 
+
+   1. `update user set authentication_string = '' where User = 'root'`
+   
+3. 然后关闭 跳过密码操作 /etc/my.ini
+
+   `/etc/my.cnf` 文件中注释这一行 `#skip-grant-tables`
+
+4. 然后重新设置密码
+
+   1. `alter user user() identified by 'rootadmin';`
+
+5. 然后修改密码安全策略 LOW（如果密码不符合，需要调整降低密码安全策略）
+
+6. 刷新权限，使用高难度密码 重新 登录数据库
+
+7. 修改成简单的密码
