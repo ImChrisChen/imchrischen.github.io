@@ -179,6 +179,21 @@ alter user user() identified by 'rootadmin';
 
 
 
+# [ERR] 1273 - Unknown collation: 'utf8mb4_0900_ai_ci'
+
+在 生成转储文件的数据库版本为8.0, 要导入sql文件的数据库版本为5.6,因为是高版本导入到低版本，引起1273错误
+
+
+
+**解决方法：**
+打开sql文件，将文件中的所有`utf8mb4_0900_ai_ci`替换为`utf8_general_ci`
+
+ `utf8mb4`替换为`utf8`
+
+保存后再次运行sql文件，运行成功
+
+
+
 ## Mysql8.0 密码忘记修改密码思路
 
 网上找了一群都发现是直接修改密码的，没有忘记密码了这种思路
