@@ -4,7 +4,7 @@
 #
 
 # Site
-title: Yo Man!
+title: 克里斯的个人博客
 subtitle:
 description:
 keywords:
@@ -89,6 +89,7 @@ deploy:
   type: git
   repo: https://github.com/ImChrisChen/ImChrisChen.github.io.git
   branch: master
+
 
 gitment:
   enable: false

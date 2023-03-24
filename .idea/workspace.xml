@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 添加百度统计">
-      <change afterPath="$PROJECT_DIR$/source/_posts/pem to crtkey.md" afterDir="false" />
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 调整网站title">
+      <change afterPath="$PROJECT_DIR$/.github/worlflows/pages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +33,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -80,7 +72,7 @@
       <recent name="$PROJECT_DIR$/themes/indigo/layout/_partial/plugins" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.deploy:github">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -103,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.deploy:github" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +189,7 @@
       <workItem from="1624781316260" duration="2479000" />
       <workItem from="1626157873507" duration="109000" />
       <workItem from="1626227891417" duration="64000" />
-      <workItem from="1679686989943" duration="733000" />
+      <workItem from="1679686989943" duration="1980000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -304,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621780456348</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: 调整网站title">
+      <created>1679688178618</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679688178618</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +354,8 @@
     <MESSAGE value="fix: 完善相关博客内容和分类" />
     <MESSAGE value="style: 优化样式" />
     <MESSAGE value="feat: 添加百度统计" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加百度统计" />
+    <MESSAGE value="feat: 调整网站title" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 调整网站title" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
