@@ -89,6 +89,7 @@ deploy:
   type: git
   repo: https://github.com/ImChrisChen/ImChrisChen.github.io.git
   branch: master
+  message: "ci: 自动化部署{{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 
 gitment:
