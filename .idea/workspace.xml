@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="chore: 配置GitHub Actions部署">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/head.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 重定向到新域名" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +185,7 @@
       <workItem from="1624781316260" duration="2479000" />
       <workItem from="1626157873507" duration="109000" />
       <workItem from="1626227891417" duration="64000" />
-      <workItem from="1679686989943" duration="3696000" />
+      <workItem from="1679686989943" duration="3962000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -309,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679689427184</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: 重定向到新域名">
+      <created>1679713854648</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679713854648</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +366,8 @@
     <MESSAGE value="feat: 添加百度统计" />
     <MESSAGE value="feat: 调整网站title" />
     <MESSAGE value="chore: 配置GitHub Actions部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: 配置GitHub Actions部署" />
+    <MESSAGE value="feat: 重定向到新域名" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 重定向到新域名" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
