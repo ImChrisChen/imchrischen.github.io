@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="feat: 调整CNAME">
+    <list default="true" id="d99ece57-37ba-4d3a-9e78-cad41e964866" name="默认更改列表" comment="chore: github actions">
       <change beforePath="$PROJECT_DIR$/.github/workflows/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,7 @@
       <workItem from="1626157873507" duration="109000" />
       <workItem from="1626227891417" duration="64000" />
       <workItem from="1679686989943" duration="7066000" />
-      <workItem from="1679731300454" duration="929000" />
+      <workItem from="1679731300454" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="1. 添加文章&#10;2. 配置gitment评论系统（未完成）">
       <created>1560421402105</created>
@@ -332,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679717163564</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="chore: github actions">
+      <created>1679732232837</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679732232837</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +394,8 @@
     <MESSAGE value="feat: 重定向到新域名" />
     <MESSAGE value="feat: 新增GitHub Actions CI/CD" />
     <MESSAGE value="feat: 调整CNAME" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 调整CNAME" />
+    <MESSAGE value="chore: github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: github actions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
