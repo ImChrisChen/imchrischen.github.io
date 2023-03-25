@@ -31,4 +31,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: master
           publish_dir: ./public
+          external_repository: ImChrisChen/imchrischen.github.io
+          cname: anyways.fun
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
