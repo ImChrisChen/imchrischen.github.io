@@ -42,7 +42,7 @@ jobs:
           #
           deploy_key: ${{ secrets.PRIVATE_KEY }}
           personal_token: ${{ secrets.blog-hexo-deploy }}
-          publish_branch: master
+          publish_branch: gh-pages
           publish_dir: ./public
           external_repository: ImChrisChen/imchrischen.github.io
           cname: anyways.fun
