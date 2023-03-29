@@ -41,6 +41,7 @@ jobs:
           # 4. Github Actions使用 peaceiris/actions-gh-pages@v3 进行构建，deploy_key这一列填写(当前源码仓库的配置的PrivateKey)
           #
           deploy_key: ${{ secrets.PRIVATE_KEY }}
+          enable_jekyll: false
           personal_token: ${{ secrets.blog-hexo-deploy }}
           publish_branch: gh-pages
           publish_dir: ./public

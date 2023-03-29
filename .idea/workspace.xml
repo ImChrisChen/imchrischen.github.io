@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: 调整备案相关">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pages.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680078162433</updated>
-      <workItem from="1680078163434" duration="7958000" />
+      <workItem from="1680078163434" duration="9423000" />
     </task>
     <task id="LOCAL-00001" summary="chore: hexo部署">
       <created>1680086960856</created>
@@ -113,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680090995882</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chore: 调整分支">
+      <created>1680091787865</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680091787865</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)">
+      <created>1680093145298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680093145298</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +146,8 @@
     <MESSAGE value="chore: hexo部署" />
     <MESSAGE value="docs: Github 博客部署文档" />
     <MESSAGE value="chore: 调整备案相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: 调整备案相关" />
+    <MESSAGE value="chore: 调整分支" />
+    <MESSAGE value="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)" />
   </component>
 </project>
