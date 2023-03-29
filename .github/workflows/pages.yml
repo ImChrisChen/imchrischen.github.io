@@ -30,8 +30,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-          deploy_key: ${{ secrets.blog-hexo-deploy }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          # deploy_key: ${{ secrets.blog-hexo-deploy }}
           personal_token: ${{ secrets.blog-hexo-deploy }}
           publish_branch: master
           publish_dir: ./public
