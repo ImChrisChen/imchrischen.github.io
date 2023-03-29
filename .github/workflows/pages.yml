@@ -32,6 +32,14 @@ jobs:
         with:
           # github_token: ${{ secrets.GITHUB_TOKEN }}
           # deploy_key: ${{ secrets.blog-hexo-deploy }}
+
+
+          # Hexo部署
+          # 1. 先本地配置生成两个密钥对 ssh-keygen -t rsa -b 4096 -C "imchrisorz@outlook.com" -f ~/temp
+          # 2. 配置私钥(源码仓库) 具体操作: blog_source_code 项目的配置好 PrivateKey  配置地址(Repository secrets这一栏, 把复制进去id_rsa): https://github.com/ImChrisChen/blog.chrischen.top/settings/secrets/actions
+          # 3. 配置公钥(静态页面/目标仓库): blog_static 项目配置 PublicKey 配置地址(Deploy keys这一栏，新增一项把 id_rsa.pub复制进去) https://github.com/ImChrisChen/imchrischen.github.io/settings/keys
+          # 4. Github Actions使用 peaceiris/actions-gh-pages@v3 进行构建，deploy_key这一列填写(当前源码仓库的配置的PrivateKey)
+          #
           deploy_key: ${{ secrets.PRIVATE_KEY }}
           personal_token: ${{ secrets.blog-hexo-deploy }}
           publish_branch: master
