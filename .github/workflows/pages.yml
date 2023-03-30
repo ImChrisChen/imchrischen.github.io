@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master # default branch
+      - gh-pages
 
 jobs:
   pages:
