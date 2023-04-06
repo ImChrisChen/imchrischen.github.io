@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pages.yml" afterDir="false" />
+    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: gs-pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,18 +28,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "gh-pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -64,7 +67,9 @@
       <option name="presentableId" value="Default" />
       <updated>1680078162433</updated>
       <workItem from="1680078163434" duration="10911000" />
-      <workItem from="1680193951029" duration="495000" />
+      <workItem from="1680193951029" duration="975000" />
+      <workItem from="1680358419349" duration="2000" />
+      <workItem from="1680772088859" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="chore: hexo部署">
       <created>1680086960856</created>
@@ -129,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680093145298</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="chore: gs-pages">
+      <created>1680194452975</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680194452975</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +165,7 @@
     <MESSAGE value="chore: 调整备案相关" />
     <MESSAGE value="chore: 调整分支" />
     <MESSAGE value="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)" />
+    <MESSAGE value="chore: gs-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: gs-pages" />
   </component>
 </project>
