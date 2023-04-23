@@ -9,7 +9,7 @@
     "start": "hexo server",
     "build": "hexo g",
     "deploy:github": "npm run build && hexo d",
-    "deploy:chris": "npm run build && node ./scripts/deploy.sh"
+    "deploy:website": "npm run build && sh ./scripts/deploy.sh"
   },
   "dependencies": {
     "gitment": "0.0.3",
