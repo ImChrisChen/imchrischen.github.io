@@ -87,8 +87,8 @@ theme: next  #博客使用的主题，默认为 landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/ImChrisChen/ImChrisChen.github.io.git
-  branch: master
+  repo: https://github.com/imchrischen/imchrischen.github.io.git
+  branch: main
   message: "ci: 自动化部署{{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 
@@ -99,3 +99,4 @@ gitment:
   ClientID: 27a2ee48afa9cd36ac9a
   ClientSecret: c1c0a3f0b0208a341903f8506ceabd430264994e
   lazy: true
+
