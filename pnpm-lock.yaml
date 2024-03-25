@@ -25,6 +25,9 @@ dependencies:
   hexo-generator-json-content:
     specifier: ^4.2.3
     version: 4.2.3
+  hexo-generator-searchdb:
+    specifier: ^1.4.1
+    version: 1.4.1
   hexo-generator-tag:
     specifier: ^2.0.0
     version: 2.0.0
@@ -736,6 +739,14 @@ packages:
       hexo-util: 3.2.0
       keyword-extractor: 0.0.28
       moment: 2.30.1
+    dev: false
+
+  /hexo-generator-searchdb@1.4.1:
+    resolution: {integrity: sha512-7m8IBpZbI6iKb2jRYxs4pghD6Ln8ylQSRGl6MIC4G9wws21vYSXSD8rvC3MoCO+pWBHs6E/mTA/rjG+p2AZfVg==}
+    dependencies:
+      nunjucks: 3.2.4
+    transitivePeerDependencies:
+      - chokidar
     dev: false
 
   /hexo-generator-tag@2.0.0:

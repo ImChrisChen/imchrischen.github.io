@@ -100,3 +100,8 @@ gitment:
   ClientSecret: c1c0a3f0b0208a341903f8506ceabd430264994e
   lazy: true
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
