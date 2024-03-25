@@ -4,11 +4,216 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="feat: Completed cookie和session.md">
+    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: Update package.json version, and change theme to NexT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.next.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.next.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/languages/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/languages/ja.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/languages/nl-NL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/languages/zh-CN.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/languages/zh-TW.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/after-footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/head.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/header.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/index-item.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/loading.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/menu.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/paginator.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/baidu.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/disqus.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/dynamic-title.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/gitalk.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/gitment.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/google-analytics.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/hyper-comments.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/mathjax.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/page-visit.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/site-visit.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/tajs.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/uyan.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/plugins/valine.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/comment.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/copyright.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/date.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/head-meta.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/nav.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/reward-btn.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/reward.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/share-fab.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/share.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/title.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/toc.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/post/updated.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/script.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/search.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/_partial/tags-bar.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/categories.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/layout.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/page.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/post.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/layout/tags.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/scripts/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/archives.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/article.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/fontawesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/gitment.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/gotop.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/highlight.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/layout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/lightbox.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/loading.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/page.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/postlist.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/reward.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/roboto.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/search.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/share.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/tags.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/variable.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_partial/waves.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/_plugin/valine.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/fontawesome/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/fontawesome/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/fontawesome/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/fontawesome/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/fontawesome/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/fontawesome/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/fonts/roboto/Roboto-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/css/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/alipay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/brand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/git_three_rigon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/img-err.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/img-loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/img/wechat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/js/main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/js/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/indigo-theme/source/js/search.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/de.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/default.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/es.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/fr.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/ja.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/ko.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/nl.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/no.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/pt.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/zh-CN.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/zh-TW.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/after-footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive-post.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/article.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/gauges-analytics.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/google-analytics.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/head.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/header.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/mobile-nav.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/date.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/gallery.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/nav.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/title.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/sidebar.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/recent_posts.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/tagcloud.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/layout.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/page.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/post.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/scripts/fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_extend.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/archive.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/article.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/comment.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/footer.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/header.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/highlight.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/mobile.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-aside.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-bottom.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_util/grid.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_util/mixin.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_variables.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/style.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/fancybox_buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/landscape/source/js/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +302,7 @@
       <workItem from="1687250033245" duration="1108000" />
       <workItem from="1711356135814" duration="195000" />
       <workItem from="1711356335809" duration="5870000" />
-      <workItem from="1711362618203" duration="2555000" />
+      <workItem from="1711362618203" duration="7003000" />
     </task>
     <task id="LOCAL-00001" summary="chore: hexo部署">
       <created>1680086960856</created>
@@ -245,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711365231540</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="chore: Update package.json version, and change theme to NexT">
+      <option name="closed" value="true" />
+      <created>1711365281988</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711365281988</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +502,7 @@
     <MESSAGE value="feat: Completed typescript-完全指南.md" />
     <MESSAGE value="feat: Update _config.yml" />
     <MESSAGE value="feat: Completed cookie和session.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Completed cookie和session.md" />
+    <MESSAGE value="chore: Update package.json version, and change theme to NexT" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Update package.json version, and change theme to NexT" />
   </component>
 </project>

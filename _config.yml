@@ -4,7 +4,7 @@
 #
 
 # Site
-title: Yo Man!
+title: Chris' Blog
 subtitle:
 description:
 keywords:
@@ -13,7 +13,7 @@ keywords:
   - ChrisChen
   - imchrisorz@outlook.com
 author: ChrisChen
-language: zh-Hans
+language: zh-CN
 #timezone:
 
 # URL
@@ -93,7 +93,7 @@ deploy:
 
 
 gitment:
-  enable: false
+  enable: true
   githubID: ImChrisChen
   repo: https://ImChrisChen.Github.io
   ClientID: 27a2ee48afa9cd36ac9a

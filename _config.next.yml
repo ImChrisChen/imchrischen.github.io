@@ -37,8 +37,8 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -157,8 +157,9 @@ site_state: true
 social:
   GitHub: https://github.com/imchrischen
   E-Mail: imchrisorz@gmail.com
-  #Weibo: https://weibo.com/yourname || fab fa-weibo
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  # Weibo: https://weibo.com/yourname || fab fa-weibo
+  # Twitter: https://twitter.com/imChrisOrz
+  Telegram: https://t.me/imchrisorz
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
