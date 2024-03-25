@@ -3,20 +3,21 @@ name: Pages
 on:
   push:
     branches:
-      - master # default branch
-      - gh-pages
+      - main # default branch
 
 jobs:
-  pages:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js 12.x
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If your repository depends on submodule, please see: https://github.com/actions/checkout
+          submodules: recursive
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
-          node-version: "12.22.12"
+          node-version: '16'
       - name: Cache NPM dependencies
         uses: actions/cache@v2
         with:
@@ -28,25 +29,20 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
-          # deploy_key: ${{ secrets.blog-hexo-deploy }}
-
-
-          # Hexo部署
-          # 1. 先本地配置生成两个密钥对 ssh-keygen -t rsa -b 4096 -C "imchrisorz@outlook.com" -f ~/temp
-          # 2. 配置私钥(源码仓库) 具体操作: blog_source_code 项目的配置好 PrivateKey  配置地址(Repository secrets这一栏, 把复制进去id_rsa): https://github.com/ImChrisChen/blog.chrischen.top/settings/secrets/actions
-          # 3. 配置公钥(静态页面/目标仓库): blog_static 项目配置 PublicKey 配置地址(Deploy keys这一栏，新增一项把 id_rsa.pub复制进去) https://github.com/ImChrisChen/imchrischen.github.io/settings/keys
-          # 4. Github Actions使用 peaceiris/actions-gh-pages@v3 进行构建，deploy_key这一列填写(当前源码仓库的配置的PrivateKey)
-          #
-          deploy_key: ${{ secrets.PRIVATE_KEY }}
-          enable_jekyll: false
-          personal_token: ${{ secrets.blog-hexo-deploy }}
-          publish_branch: gh-pages
-          publish_dir: ./public
-          external_repository: ImChrisChen/imchrischen.github.io
-          cname: www.chrischen.top
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          path: ./public
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
