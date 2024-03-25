@@ -13,28 +13,108 @@ tags:
 
 
 
-
-
 ## 泛型 Genericity
 
 > 理解泛型就两个字：**传型**
 
 最常见的`Array`类型就是使用了泛型
 
-```typescript
+**在函数中使用**
 
+```typescript
+Array.prototype.delete = function <T>(index: number): T {
+  return this.splice(index, 1)[0];
+}
+
+const arr = [1, 2, 3, 4]
+
+arr.delete<number>(1) // 2
+
+const arr2 = ['a', 'b', 'c', 'd']
+arr2.delete<string>(1) // 'b'
+```
+
+**在interface中使用**
+
+```typescript
+interface IBase<T> {
+  name: T
+}
+
+let base: IBase<string> = {
+  field: 'Chris'
+}
+
+let base2: IBase<number> = {
+  field: 18
+}
 ```
 
 
+## interface 和 type
+为什么要把`interface` 和 `type` 放在一起呢，因为他们两个都有相似指出，但是又有不同的地方
 
 
+### interface
+`interface`在TypeScript中用于定义对象的形状（shape），即对象应该有哪些属性以及它们的类型。接口是一种强大的方式来定义一个对象可以执行的操作和它应当具有的结构。接口通常用来定义对象的规范，以及类或对象必须实现的方法和属性。
 
-## 接口 interface
+```typescript
 
-描述 `object` 和 `class` 的属性和方法
+interface Person {
+  name: string;
+  age: number;
+  greet(): void;
+}
 
 
+```
 
+在上面的例子中，任何实现了`Person`接口的对象都必须有一个string类型的name属性、一个number类型的age属性，以及一个返回void的greet方法。
+
+接口可以被继承和扩展，允许你创建新的接口，基于一个或多个现有的接口。
+
+### type
+
+type是TypeScript中的类型别名，用于给一个类型起一个新的名字。它可以用来定义一个类型可以是什么。类型别名不仅仅可以用来定义对象的形状，还可以用来定义并集、交集、原始类型、元组、数组等。
+
+```typescript
+type Greeting = "Hello" | "Hi" | "Hey";
+type ID = string | number;
+type User = {
+  name: string;
+  id: ID;
+};
+
+```
+
+在上面的例子中，Greeting是一个类型别名，它可以是三个特定的字符串中的一个；ID是一个可以是string或number的类型别名；User是一个对象的类型别名，有name和id属性。
+
+**`type`和`interface`的区别：**
+相同点：
+- 都可以用来描述对象或函数的类型。
+- 都可以在TypeScript中用来实现类型检查和智能感知。
+- 
+**不同点：**
+- interface可以被继承和扩展，而type不能。但type可以通过交集和并集操作创建新的类型。
+- type可以用于定义其他类型的组合，比如联合类型、元组类型等，而interface通常不用于这些目的。
+ - type可以是任何有效的类型，包括基础类型、联合类型、交集类型、元组等，而interface主要用于定义对象的形状或行为。
+
+
+**使用场景**
+
+`interface`适用场景：
+- 当你需要定义一个对象的结构，尤其是当对象有可能被多个不同的类实现时。
+- 当你需要通过继承来扩展现有的接口。
+- 当你想要一个明确的合约来指定一个类必须实现哪些方法和属性时。
+
+`type`适用场景：
+- 当你需要定义类型的并集或交集。
+- 当你想要定义元组、映射类型或其他复杂的类型结构。
+- 当你需要一个类型别名来简化复杂的类型表达式。
+- 在实际应用中，`interface`和`type`可以互换使用，选择使用哪一个很大程度上取决于个人或团队的偏好，以及具体的使用场景。有些团队可能更倾向于使用interface来定义对象的形状，因为它更加正式，表达了一种契约的概念；而另一些团队可能更偏好type的灵活性。在某些情况下，最佳实践可能是结合使用这两者的特点。
+
+
+在实际应用中，`interface`和`type`可以互换使用，选择使用哪一个很大程度上取决于个人或团队的偏好，以及具体的使用场景。有些团队可能更倾向于使用interface来定义对象的形状，因为它更加正式，表达了一种契约的概念；而另一些团队可能更偏好type的灵活性。在某些情况下，最佳实践可能是结合使用这两者的特点。
 
 
 ## implements
@@ -56,9 +136,6 @@ class Person implements BasePerson {
   }
 }
 ```
-
-
-
 
 
 ## 交叉类型 , 联合类型
@@ -125,9 +202,141 @@ let person2: InterfaceA | InterfaceB = {
 };
 ```
 
+## 内置类型
+
+Typescript 除了内置的基本数据类型，还有一些内部封装好的的类型，这些类型可以帮助我们更好的编写代码
+
+### ReturnType<T>
+提取函数类型 T 的返回类型。
+```typescript
+function f1(): number { return 0; }
+type T0 = ReturnType<typeof f1>; // number
+```
+
+### Partial<T>
+将类型 T 的所有属性变为可选的。
+```typescript
+interface Todo {
+  title: string;
+  description: string;
+}
+function updateTodo(todo: Todo, fieldsToUpdate: Partial<Todo>) {
+  return { ...todo, ...fieldsToUpdate };
+}
+```
+
+### Required<T> 
+将类型 T 的所有属性变为必选的。
+
+```typescript
+interface Props {
+  a?: number;
+  b?: string;
+}
+const obj: Required<Props> = { a: 5, b: 'Hello' }; // 正确
+```
+
+### Readonly<T>
+
+```typescript
+interface Todo {
+  title: string;
+}
+const todo: Readonly<Todo> = {
+  title: "Delete inactive users",
+};
+todo.title = "Hello"; // 错误，title 是只读的
+```
 
 
+### Pick<T, K>
+从类型 T 中挑选某些属性 K 来构造类型。
+```typescript
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+type TodoPreview = Pick<Todo, "title" | "completed">;
+```
 
+### Record<K, T>
+创建一个类型，其键是 K，值是 T。
+```typescript
+type PageOptions = Record<'home' | 'about' | 'contact', { title: string }>;
+```
+
+### Exclude<T, U>
+从类型 T 中排除可以赋给 U 的所有属性。
+```typescript
+type T0 = Exclude<"a" | "b" | "c", "a">; // "b" | "c"
+```
+
+
+### Extract<T, U>
+从类型 T 中提取可以赋给 U 的所有属性。
+```typescript
+type T0 = Extract<"a" | "b" | "c", "a" | "f">; // "a"
+```
+
+### Omit<T, K>
+从类型 T 中剔除键 K。
+```typescript
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+type TodoPreview = Omit<Todo, "description">;
+```
+
+### NonNullable<T> 
+从类型 T 中排除 null 和 undefined
+
+```typescript
+type T0 = NonNullable<string | number | undefined>; // string | number
+```
+
+### Parameters<T>
+提取函数类型 T 的参数类型组成一个元组类型。
+```typescript
+function f1(arg1: number, arg2: string): void {}
+type T0 = Parameters<typeof f1>; // [number, string]
+```
+
+### InstanceType<T>
+获取构造函数类型的实例类型。
+```typescript
+class C {
+  x = 0;
+  y = 0;
+}
+type T0 = InstanceType<C>; // C
+```
+
+### Uppercase<StringType>
+将字符串类型中的每个字符转换为大写形式。
+```typescript
+type T = Uppercase<'hello'>; // 'HELLO'
+```
+
+### Lowercase<StringType>
+将字符串类型中的每个字符转换为小写形式。
+```typescript
+type T = Lowercase<'HELLO'>; // 'hello'
+```
+
+### Capitalize<StringType>
+将字符串类型中的第一个字符转换为大写形式。
+```typescript
+type T = Capitalize<'hello'>; // 'Hello'
+```
+
+### Uncapitalize<StringType>
+将字符串类型中的第一个字符转换为小写形式。
+```typescript
+type T = Uncapitalize<'Hello'>; // 'hello'
+```
 
 ## 高阶使用
 
@@ -155,7 +364,6 @@ interface {
     Windows: number
 }
 ```
-
 
 
 ### keyof ，用typeof获取对象的所有key的联合类型
@@ -241,9 +449,6 @@ type Keys = keyof systemMap		// "MacOS" | "Linux" | "Windows"
 
 type Values = systemMap[Keys]	// 200 | "macos" | "windows"
 ```
-
-
-
 
 
 ## tsconfig.json 配置速查表
