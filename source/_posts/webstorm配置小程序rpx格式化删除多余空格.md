@@ -10,11 +10,11 @@ tags:
 
 ### 设置中找到 file watchers  添加
 
-![](http://cdn.chrischen.top//Markdown/PastedGraphic.jpg)
+![](http://oss.anyways.fun//Markdown/PastedGraphic.jpg)
 
 ### 填写配置
 
-![](http://cdn.chrischen.top//Markdown/PastedGraphic2.jpg)
+![](http://oss.anyways.fun//Markdown/PastedGraphic2.jpg)
 
 >   program 填写 `sed`
 >

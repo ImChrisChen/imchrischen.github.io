@@ -31,7 +31,7 @@ tags:
 
 >    这些图可以更好的帮助理解
 
-![](http://cdn.chrischen.top//Markdown/3793073884-56950753e65db.png)
+![](http://oss.anyways.fun//Markdown/3793073884-56950753e65db.png)
 
 
 

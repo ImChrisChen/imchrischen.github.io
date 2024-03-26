@@ -46,7 +46,7 @@ $ mkcert -install
 $ mkcert localhost 127.0.0.1
 ```
 
-<img src="http://cdn.chrischen.top/blog/TDnbAU.png" style="zoom:50%;" />
+<img src="http://oss.anyways.fun/blog/TDnbAU.png" style="zoom:50%;" />
 
 如果要生成泛域名证书也可以使用 `mkcert "*.wps.cn"` 类似的域名（要注意使用双引号才可以）
 
@@ -80,5 +80,5 @@ server {
 sudo nginx -s reload
 ```
 
-<img src="http://cdn.chrischen.top/blog/lzOWPK.png" style="zoom:80%;" />
+<img src="http://oss.anyways.fun/blog/lzOWPK.png" style="zoom:80%;" />
 

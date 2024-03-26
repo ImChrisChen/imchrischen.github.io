@@ -62,7 +62,7 @@ Object.defineProperty的缺陷，由上得出结论
 
    源码 `vue-next/packages/reactivity/src/baseHandlers.ts  `  127行
 
-<img src="http://cdn.chrischen.top/blog/4y3vnW.png" style="zoom:33%;" />
+<img src="http://oss.anyways.fun/blog/4y3vnW.png" style="zoom:33%;" />
 
 
 

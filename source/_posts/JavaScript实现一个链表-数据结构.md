@@ -34,7 +34,7 @@ tags:
 
 如果用生活中的例子代替火车就是最抽象的例子
 
-![](http://cdn.chrischen.top/blog/re6YO8.png)
+![](http://oss.anyways.fun/blog/re6YO8.png)
 
 每一个节点包含自己外，还包含一个指针，这个指针可以指向到下一个节点，形成一种，以此类推，形成的一个链式结构，就叫链表
 

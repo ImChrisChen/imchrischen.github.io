@@ -53,7 +53,7 @@ HTTP是web编程最为基础的了知识了，有 `互联网基石` 的称号可
 
 `keep-alive`： 在HTTP1.1的升级最主要的是 `keep-alive` 持久链接 大大的减少了每次请求都要建立一次TCP连接带来的耗时，从而提升了HTTP请求性能，keep-alive 带来这么大性能提升的同时也也有他的缺点
 
-![](http://cdn.chrischen.top/blog/Ph3PSc.jpg)
+![](http://oss.anyways.fun/blog/Ph3PSc.jpg)
 
 
 当然`keep-alive`也有缺点： **就算是在空闲状态，它还是会消耗服务器资源，而且在重负载时，还有可能遭受 DoS attack 攻击。这种场景下，可以使用非长连接，即尽快关闭那些空闲的连接，也能对性能有所提升。**

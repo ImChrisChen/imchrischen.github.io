@@ -88,7 +88,7 @@ console.log(str2) // hs9lje959eg
 
 > 用法："★★★★★☆☆☆☆☆".slice(5 - num, 10 - num);  num的值在1 ~ 5之间
 
-![](http://cdn.chrischen.top//Markdown/一行代码评级组件.png)
+![](http://oss.anyways.fun//Markdown/一行代码评级组件.png)
 
 上面的方法只能实现整数，那如何实现小数评级呢？
 

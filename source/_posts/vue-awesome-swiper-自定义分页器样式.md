@@ -68,7 +68,7 @@ tags:
 
 ##### 效果图
 ---
-![](http://cdn.chrischen.top//Markdown/表情包分页器样式.png)
+![](http://oss.anyways.fun//Markdown/表情包分页器样式.png)
 
 
 

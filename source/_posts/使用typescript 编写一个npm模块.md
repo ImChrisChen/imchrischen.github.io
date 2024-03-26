@@ -54,7 +54,7 @@ tsc --init			// 初始化tsconfig.json
 
 然后在跟目录下新建 index.ts 如下：
 
-![](http://cdn.chrischen.top//Markdown20200625002857.png)
+![](http://oss.anyways.fun//Markdown20200625002857.png)
 
 ## 5 . 
 

@@ -14,7 +14,7 @@ categories:
 
 `git log ` 却能正确显示
 
-![](http://cdn.chrischen.top/blog/HO1RNF.png)
+![](http://oss.anyways.fun/blog/HO1RNF.png)
 
 ## 寻找原因
 
@@ -30,7 +30,7 @@ git config --global core.quotepath false
 
 输入命令则自动写入到 ~/.gitconfig 文件中
 
-![](http://cdn.chrischen.top/blog/kG5ReN.png)
+![](http://oss.anyways.fun/blog/kG5ReN.png)
 
 当然也可以直接修改 .gitconfig 进行配置等等，还可以设置alias等一些列配置
 
@@ -40,4 +40,4 @@ git全局配置文件 Mac 一般存放在 `~/.gitconfig` 中
 
 这样设置完成后，一般都能看见中文了，如果还是乱码，可以看看 shell 终端 bash ，zsh 等配置 是否设置支持中文显示
 
-![](http://cdn.chrischen.top/blog/7OIbXt.png)
+![](http://oss.anyways.fun/blog/7OIbXt.png)

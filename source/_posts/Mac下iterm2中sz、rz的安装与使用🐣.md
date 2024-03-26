@@ -106,7 +106,7 @@ chmod 777 iterm2-*  	# 把以上两个文件都添加权限（这里的*代表�
 
 配置好后如图
 
-![img](http://cdn.chrischen.top//Markdown/mac-rz-sz-iterm2.png)
+![img](http://oss.anyways.fun//Markdown/mac-rz-sz-iterm2.png)
 
 ### 使用方法
 

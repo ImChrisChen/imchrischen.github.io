@@ -60,7 +60,7 @@ server {
 3. 第三条cookie 设置了HttpOnly 字段，在浏览器的Application 中是可以看到的，但是用document.cookie 访问不了
 
 
-![](http://cdn.chrischen.top/blog/uOZo5U.png)
+![](http://oss.anyways.fun/blog/uOZo5U.png)
 
 tips: `可以通过给主域名设置Cookie` 然后子域名访问，达到一个**跨域访问Cookie**的效果
 

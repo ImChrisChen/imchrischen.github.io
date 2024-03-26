@@ -42,9 +42,9 @@ Vue3创建实例是用的 ` Vue.createApp` 方法，先去源码中找到 create
 
 4. 挂载成功后返回一个代理对象，里面包含了 data 和 setup方法return的值，如果两个方法的return的值有冲突，则会优先使用setup中的值
 
-   <img src="http://cdn.chrischen.top/blog/截屏2021-05-22 上午8.23.39.png" style="zoom:50%;" />
+   <img src="http://oss.anyways.fun/blog/截屏2021-05-22 上午8.23.39.png" style="zoom:50%;" />
 
-<img src="http://cdn.chrischen.top/blog/截屏2021-05-22 上午8.24.06.png" style="zoom:50%;" />
+<img src="http://oss.anyways.fun/blog/截屏2021-05-22 上午8.24.06.png" style="zoom:50%;" />
 
 可以看到定义两个一样的 `title`  属性已经被覆盖了，而 hd 只在data中定义 setup中没有定义就不存在覆盖的问题，所以对于模版属性 **setup的优先级是要高于data**
 

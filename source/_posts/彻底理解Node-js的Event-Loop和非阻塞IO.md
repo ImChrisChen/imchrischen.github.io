@@ -46,9 +46,9 @@ JavaScript是单线程语言，这意味着它一次只能做一件事。 这对
 
 **Node.js的Event Loop遵循以下步骤：**
 
-[//]: # (![Node.js 事件循环流程图]&#40;http://cdn.chrischen.top/blog/sYQQps.png&#41;)
+[//]: # (![Node.js 事件循环流程图]&#40;http://oss.anyways.fun/blog/sYQQps.png&#41;)
 
-![Node.js 事件循环流程图](http://cdn.chrischen.top/blog/qBEWIT.png)
+![Node.js 事件循环流程图](http://oss.anyways.fun/blog/qBEWIT.png)
 
 - 执行同步代码：Node.js首先执行脚本的同步代码，例如变量声明和函数定义。
 - 注册回调：当遇到异步操作时（例如文件读取或数据库查询），Node.js会注册一个回调函数，并继续执行Event Loop的下一个阶段。
@@ -64,7 +64,7 @@ JavaScript是单线程语言，这意味着它一次只能做一件事。 这对
 - 关闭的回调阶段：例如socket.on('close', ...)这种回调。事件循环不断地在这些阶段之间切换，处理队列中的任务，直到队列为空。这种非阻塞的模型使 Node.js 能够处理大量并发连接而不陷入阻塞，因为它可以在等待 I/O 时执行其他任务。
 
 ## Nodejs的Event Loop和 Javascript的Event Loop有什么区别？
-![浏览器事件循环流程图](http://cdn.chrischen.top/blog/uzatJV.png)
+![浏览器事件循环流程图](http://oss.anyways.fun/blog/uzatJV.png)
 
 
 浏览器事件循环
