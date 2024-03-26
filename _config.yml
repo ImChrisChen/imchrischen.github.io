@@ -46,6 +46,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
+  exclude_languages:
+    - mermaid
   enable: true                #是否使用代码高亮 ，默认为 true
   line_number: false           #是否显示行号 ，默认为 true
   auto_detect: true           #是否自动检测语言 ，默认为 false
