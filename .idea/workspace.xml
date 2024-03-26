@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: update CNAME">
+    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: enable mermaid render">
+      <change afterPath="$PROJECT_DIR$/source/_posts/彻底理解Node-js的Event-Loop和非阻塞IO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.next.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.next.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/typescript-完全指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/typescript-完全指南.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,8 @@
       <workItem from="1711356135814" duration="195000" />
       <workItem from="1711356335809" duration="5870000" />
       <workItem from="1711362618203" duration="8397000" />
-      <workItem from="1711372282057" duration="2624000" />
+      <workItem from="1711372282057" duration="3493000" />
+      <workItem from="1711438432456" duration="9841000" />
     </task>
     <task id="LOCAL-00001" summary="chore: hexo部署">
       <created>1680086960856</created>
@@ -287,7 +286,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711373908113</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="chore: add search bar">
+      <option name="closed" value="true" />
+      <created>1711375836078</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711375836078</updated>
+    </task>
+    <task id="LOCAL-00027" summary="chore: enable mediumzoom image zoom">
+      <option name="closed" value="true" />
+      <created>1711450297071</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711450297071</updated>
+    </task>
+    <task id="LOCAL-00028" summary="chore: enable mermaid render">
+      <option name="closed" value="true" />
+      <created>1711450311515</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711450311515</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +359,9 @@
     <MESSAGE value="feat: Update typescript-完全指南.md" />
     <MESSAGE value="chore: configuration deploy" />
     <MESSAGE value="chore: update CNAME" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update CNAME" />
+    <MESSAGE value="chore: add search bar" />
+    <MESSAGE value="chore: enable mediumzoom image zoom" />
+    <MESSAGE value="chore: enable mermaid render" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: enable mermaid render" />
   </component>
 </project>
