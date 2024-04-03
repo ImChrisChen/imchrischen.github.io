@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="feat: Add 彻底理解Node-js的Event-Loop和非阻塞IO.md">
+      <change afterPath="$PROJECT_DIR$/source/_posts/Linux下使用Docker部署Nodejs-Puppeteer实践.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Git常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git常用命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Git显示中文乱码问题.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/Git显示中文乱码问题😼.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git显示中文乱码问题.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/Git显示中文乱码问题😼.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" beforePathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 .md" afterPathEscaped="$PROJECT_DIR$/source/_posts/HTTP协议发展历史和各版本之前的区别 📖.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Http-内容安全策略-Content-Security-Policy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/JavaScript实现一个链表-数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/JavaScript实现一个链表-数据结构.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Mac下iterm2中sz、rz的安装与使用.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/Mac下iterm2中sz、rz的安装与使用🐣.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Mac下iterm2中sz、rz的安装与使用.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/Mac下iterm2中sz、rz的安装与使用🐣.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Object-defineProperty和Proxy的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Object-defineProperty和Proxy的区别.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Vue3源码解读-响应式数据原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Vue3源码解读-响应式数据原理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/cookie和session.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/cookie和session.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/vue-awesome-swiper-自定义分页器样式.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/vue-awesome-swiper-自定义分页器样式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/webstorm配置小程序rpx格式化删除多余空格.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/webstorm配置小程序rpx格式化删除多余空格.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/使用-mkcert-快速实现本地https.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/使用-mkcert-快速实现本地https.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/使用typescript 编写一个npm模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/使用typescript 编写一个npm模块.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/彻底理解Node-js的Event-Loop和非阻塞IO.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/彻底理解Node-js的Event-Loop和非阻塞IO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/微信小游戏提审发布流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/微信小游戏提审发布流程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/神奇的Javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/神奇的Javascript.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/记录这几天面试没有回答上来的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/记录这几天面试没有回答上来的问题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/深刻理解localStorage sessionStorage.md" beforePathEscaped="$PROJECT_DIR$/source/_posts/🤔深刻理解localStorage sessionStorage.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/深刻理解localStorage sessionStorage.md" afterPathEscaped="$PROJECT_DIR$/source/_posts/🤔深刻理解localStorage sessionStorage.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +49,7 @@
     "npm.start.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/chrisorz/.config/yarn/global/node_modules/prettier",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/chrisorz/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
