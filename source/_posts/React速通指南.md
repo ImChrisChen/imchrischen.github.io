@@ -5,13 +5,38 @@ tags:
   - React
 ---
 
-## useEffect使用
+## React Hooks
+
+Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性
+
+**特点：**
+
+- Hook函数通常使用use开头
+- 函数式编程
+- 声明式逻辑
 
 **使用注意事项：**
 
 - 只能在React函数组件中调用Hook
 - 只在最顶层使用Hook
 - 不能在if，for，switch等流程语句中使用
+
+**为什么要用Hooks？它解决了什么问题？**
+
+Hooks的好处有下面几点：
+
+1. 更好的逻辑复用
+2. 更简洁的代码
+3. 更好的性能
+4. 更好的拓展性，和其他库集成
+
+解决了Class组件带来的一些问题：
+
+- 复杂组件的逻辑复用难度问题
+- 组件生命周期的混乱问题
+- this指向问题
+
+## useEffect使用
 
 **传递依赖的三种情况:**
 
@@ -44,15 +69,27 @@ function App() {
 
 ## 其他常见Hook用法
 
-### useState 原理
+### useState
 
-待补充
+```typescript jsx
+import { useState } from 'react'
+
+function FavoriteColor() {
+  const [color, setColor] = useState("red");
+
+  return <h1>My favorite color is {color}!</h1>
+}
+```
+
+更新机制：
 
 ### useRef 使用
 
-`useRef` 是 React 的一个 Hook，它能够在函数组件中存储一个可变的引用对象，该对象在组件的整个生命周期内保持不变。`useRef` 常用于以下几种情况：
+`useRef` 是 React 的一个 Hook，它能够在函数组件中存储一个可变的引用对象，该对象在组件的整个生命周期内保持不变。`useRef`
+常用于以下几种情况：
 
-1. **访问 DOM 元素**：当你需要直接访问 DOM 元素时，可以使用 `useRef` 创建一个引用，并将其赋给元素的 `ref` 属性。这样，你就可以在组件中直接控制和访问该 DOM 元素。
+1. **访问 DOM 元素**：当你需要直接访问 DOM 元素时，可以使用 `useRef` 创建一个引用，并将其赋给元素的 `ref`
+   属性。这样，你就可以在组件中直接控制和访问该 DOM 元素。
 
 2. **保存可变值**：如果你需要在组件的渲染周期之间保持一个可变的值，而这个值不应该触发组件的重新渲染，`useRef` 可以用来保存这个值。
 
@@ -75,8 +112,8 @@ function TextInputWithFocusButton() {
 
   return (
     <div>
-      <input type="text" ref={textInput} />
-      <button onClick={focusTextInput}>Focus the text input</button>
+      <input type="text" ref={ textInput }/>
+      <button onClick={ focusTextInput }>Focus the text input</button>
     </div>
   );
 }
@@ -117,9 +154,9 @@ function TimerComponent() {
 
   return (
     <div>
-      <h1>{count}</h1>
-      <button onClick={startTimer}>Start</button>
-      <button onClick={stopTimer}>Stop</button>
+      <h1>{ count }</h1>
+      <button onClick={ startTimer }>Start</button>
+      <button onClick={ stopTimer }>Stop</button>
     </div>
   );
 }
@@ -127,7 +164,8 @@ function TimerComponent() {
 export default TimerComponent;
 ```
 
-在上面的计数器示例中，`intervalRef` 被用来保存定时器的 ID。这个 ID 是可变的，但是我们不希望它的改变导致组件的重新渲染，因此使用 `useRef` 来存储它是非常合适的。
+在上面的计数器示例中，`intervalRef` 被用来保存定时器的 ID。这个 ID
+是可变的，但是我们不希望它的改变导致组件的重新渲染，因此使用 `useRef` 来存储它是非常合适的。
 
 总结一下，`useRef` 是一个非常有用的钩子，它能够帮助你在函数组件中管理 DOM 引用和存储跨渲染周期的可变值。
 
@@ -321,6 +359,13 @@ export function Counter() {
 
 ```
 
+**使用场景：**
+
+- 你的state是一个数组或者一个对象
+- state变化很复杂，经常一个操作需要修改很多state
+- 你用应用程序比较大，希望UI和业务能够分开维护
+- 需要为了更好的写构建单元测试
+
 ## Suspense 组件
 
 React Suspense 是 React 中的一个功能，它允许组件“等待”某些内容加载，并在加载时显示一个备用的
@@ -414,9 +459,99 @@ React合成事件（SyntheticEvent）是React为了跨浏览器兼容性而模�
 
 ## 受控组件和非受控组件的区别?
 
+在React中，受控组件（Controlled Components）和非受控组件（Uncontrolled Components）是处理表单元素的两种不同方式。
+
+### 受控组件：
+
+受控组件是React中推荐的方式来管理表单数据的。在受控组件中，表单数据是由React组件的state来管理的。这意味着每当表单的输入发生改变时，比如用户输入了新的文本，都会有一个事件处理器函数（如onChange）来更新组件的state，从而更新组件渲染的输入元素的显示值。
+
+受控组件的特点：
+
+- 输入值绑定到组件的状态上。
+- 必须提供一个onChange处理器来响应数据的变化并更新状态。
+- 数据由React的state完全控制，因此组件的状态是数据的“唯一真相来源”。
+
+### 非受控组件：
+
+非受控组件不像受控组件那样由React来管理表单数据。在非受控组件中，表单数据是由DOM本身来管理的。通常，你会使用ref来直接从DOM元素中获取表单数据。
+
+非受控组件的特点：
+
+- 输入值通过ref从DOM中取得，不需要为每个状态更新编写事件处理函数。
+- 可以像传统HTML表单那样工作，使用ref访问DOM节点来获取其当前值。
+- 表单数据通常在需要时才从DOM中取得，而不是每次输入变化时都更新。
+
+### 如何将非受控组件改成受控组件？
+
+要将非受控组件转换为受控组件，你需要做以下几个步骤：
+
+1. 在组件的state中添加一个新的state属性来保存输入值。
+2. 将这个新的state属性作为输入元素的`value`属性。
+3. 创建一个事件处理函数来响应输入值的变化，并更新相关的state。
+4. 将这个事件处理函数绑定到输入元素的onChange事件上。
+
+下面是一个简单的例子来演示如何转换：
+
+#### 非受控组件：
+
+```jsx
+class UncontrolledComponent extends React.Component {
+  inputRef = React.createRef();
+
+  handleSubmit = event => {
+    alert('A name was submitted: ' + this.inputRef.current.value);
+    event.preventDefault();
+  };
+
+  render() {
+    return (
+      <form onSubmit={ this.handleSubmit }>
+        <label>
+          Name:
+          <input type="text" ref={ this.inputRef }/>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    );
+  }
+}
+```
+
+#### 受控组件：
+
+```jsx
+class ControlledComponent extends React.Component {
+  state = {name: ''};
+
+  handleChange = event => {
+    this.setState({name: event.target.value});
+  };
+
+  handleSubmit = event => {
+    alert('A name was submitted: ' + this.state.name);
+    event.preventDefault();
+  };
+
+  render() {
+    return (
+      <form onSubmit={ this.handleSubmit }>
+        <label>
+          Name:
+          <input type="text" value={ this.state.name } onChange={ this.handleChange }/>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    );
+  }
+}
+```
+
+在受控组件的例子中，我们用`this.state.name`来控制输入元素的值，并用`handleChange`
+事件处理函数来更新state。这样就可以确保组件的state是所有输入数据的唯一来源。
+
 ## React 性能优化
 
-- 合理拆分组件颗粒度，减少整个组件渲染
+- 合理拆分组件颗粒度, 减少整个组件渲染, 以及减少组件render渲染次数
 - 使用React.memo，PureCompoent，useMemo，useCallback等方式进行组件优化
 - 使用Suspense和React.lazy来进行懒加载和异步组件加载
 - 使用React.lazy进行路由懒加载

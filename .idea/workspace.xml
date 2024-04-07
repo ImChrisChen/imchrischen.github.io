@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="feat: 新增《常见的Web攻击手段以及防御方式》文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/React速通指南.md" afterDir="false" />
+    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="feat: 新增《React速通指南》文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/React速通指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/React速通指南.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     "nodejs_package_manager_path": "yarn",
     "npm.start.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/chrisorz/.config/yarn/global/node_modules/prettier",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "settings.editor.selected.configurable": "Settings.Markdown.SmartKeys",
     "ts.external.directory.path": "/Users/chrisorz/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "use.deno.dismiss": "true",
     "vue.rearranger.settings.migration": "true"
@@ -108,7 +108,7 @@
       <workItem from="1711362618203" duration="8397000" />
       <workItem from="1711372282057" duration="3493000" />
       <workItem from="1711438432456" duration="11595000" />
-      <workItem from="1712420885334" duration="7876000" />
+      <workItem from="1712420885334" duration="15050000" />
     </task>
     <task id="LOCAL-00001" summary="chore: hexo部署">
       <created>1680086960856</created>
@@ -344,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712163767451</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat: 新增《React速通指南》文章">
+      <option name="closed" value="true" />
+      <created>1712429141880</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712429141880</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +382,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="chore: hexo部署" />
     <MESSAGE value="docs: Github 博客部署文档" />
     <MESSAGE value="chore: 调整备案相关" />
     <MESSAGE value="chore: 调整分支" />
@@ -399,6 +406,7 @@
     <MESSAGE value="feat: Add 彻底理解Node-js的Event-Loop和非阻塞IO.md" />
     <MESSAGE value="feat: 新增《Linux下使用Docker部署Nodejs + Puppeteer实践》文章" />
     <MESSAGE value="feat: 新增《常见的Web攻击手段以及防御方式》文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增《常见的Web攻击手段以及防御方式》文章" />
+    <MESSAGE value="feat: 新增《React速通指南》文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增《React速通指南》文章" />
   </component>
 </project>
