@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="feat: 新增《React速通指南》文章">
+    <list default="true" id="c065f735-4f07-4689-be00-36e983f4f7ed" name="Changes" comment="chore: fix github actions">
       <change beforePath="$PROJECT_DIR$/.github/workflows/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -361,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712429141880</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="chore: fix github actions">
+      <option name="closed" value="true" />
+      <created>1739115672341</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1739115672341</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +399,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="docs: Github 博客部署文档" />
     <MESSAGE value="chore: 调整备案相关" />
     <MESSAGE value="chore: 调整分支" />
     <MESSAGE value="chore: Github Pages构建绕过jekyll(https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)" />
@@ -416,6 +423,7 @@
     <MESSAGE value="feat: 新增《Linux下使用Docker部署Nodejs + Puppeteer实践》文章" />
     <MESSAGE value="feat: 新增《常见的Web攻击手段以及防御方式》文章" />
     <MESSAGE value="feat: 新增《React速通指南》文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增《React速通指南》文章" />
+    <MESSAGE value="chore: fix github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: fix github actions" />
   </component>
 </project>
