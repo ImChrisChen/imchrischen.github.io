@@ -30,13 +30,10 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm run build
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
           path: ./public
-          retention-days: 1
-          compression-level: 9
   deploy:
     needs: build
     permissions:
@@ -49,4 +46,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+        uses: actions/deploy-pages@v4

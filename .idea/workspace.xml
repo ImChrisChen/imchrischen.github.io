@@ -369,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739115672341</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="chore: fix github actions">
+      <option name="closed" value="true" />
+      <created>1739116077795</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1739116077795</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
